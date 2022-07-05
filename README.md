@@ -3,12 +3,6 @@
 
 [![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/focus-creative-games/HybridCLR/blob/main/LICENSE)
 
-<br/>
-
-![icon](docs/images/logo.png)
-
-<br/>
-
 HybridCLR是一个**特性完整、零成本、高性能、低内存**的**近乎完美**的Unity全平台原生c#热更方案。
 
 HybridCLR扩充了il2cpp的代码，使它由纯[AOT](https://en.wikipedia.org/wiki/Ahead-of-time_compilation) runtime变成‘AOT+Interpreter’ 混合runtime，进而原生支持动态加载assembly，使得基于il2cpp backend打包的游戏不仅能在Android平台，也能在IOS、Consoles等限制了JIT的平台上高效地以**AOT+interpreter**混合模式执行。从底层彻底支持了热更新。
@@ -86,11 +80,6 @@ HybridCLR是原生的c#热更新方案。通俗地说，il2cpp相当于mono的ao
   - QQ群：651188171 HybridCLR技术交流群 **(官方主群)**。可以反馈bug，但**不要在群里咨询基础使用问题**。
   - QQ群：428404198 HybridCLR使用疑难咨询群 **(新手群)**。新手使用过程中遇到问题，都可以在群里咨询。
   - 邮箱：taojingjian#gmail.com
-
-- 商务合作，请联系Lucas Zhang
-  - 电话：15201249045
-  - 微信：lucaszhang1993
-  - 邮箱：zhangshuo@tuyoogame.com
 
 ## RoadMap
 
